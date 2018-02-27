@@ -1,0 +1,97 @@
+
+.wmd-panel{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.comment-reply {
+    display: none;
+}
+.option-reply {
+    display: none;
+}
+#bread1{
+    background: #417690;
+    padding: 20px 40px;
+    border-radius:0px;
+    margin-bottom: 0px;
+}
+#bread1 li{
+    padding-top: 8px ;
+    color: wheat;
+}
+#bread1 li a{
+    color: white;
+}
+
+#bread1 li a:hover {
+    text-decoration: none;
+    border-bottom-color: #79aec8;
+    color: #79aec8;
+}
+
+
+#bread2{
+    background: #79aec8;
+    padding: 10px 50px;
+    border-radius:0px;
+}
+#bread2 a{
+    color: white;
+}
+#bread2 a:hover{
+    color: #c4dce8;
+}
+#uu{
+    position: absolute;
+    top: 25;
+    right: 500px;
+    width:400px;
+}
+
+.button-border{
+    background: #8bc220;
+
+}
+
+.button-large {
+    font-size: 20px;
+    height: 30px;
+
+}
+#trash {
+    font-size: 22px;
+    height: 30px;
+}
+#ther {
+    font-size: 23px;
+    height: 30px;
+}
+
+#trash2 {
+    border: solid 2px #417690   ;
+    font-size: 30px;
+    height: 30px;
+}
+
+#trash3 {
+    border: solid 2px gray ;
+    font-size:30px;
+    height: 30px;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    #l1 {
+        padding-left: 25px;
+    }
+
+    #bread1{
+        padding:30px 40px;
+    }
+    #cc{
+        margin-top: 1cm;
+    }
+}
+
